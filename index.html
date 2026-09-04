@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DokanShop</title>
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/footer.css">
+</head>
+<body>
+<header class="navbar">
+    <div class="container">
+
+        <a href="#home" class="logo">Dokan<span>Shop</span></a>
+
+        <nav>
+            <ul class="nav-links">
+
+                <li>
+                    <a href="#home" class="home-nav">Home</a>
+                </li>
+
+                <li>
+                    <a href="#products">Latest Products</a>
+                </li>
+
+                <li>
+                    <a href="#deals">Top Deals</a>
+                </li>
+
+                <li>
+                    <a href="./sign-in.html">Log In</a>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#">Pages</a>
+
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="./about-us.html">About Us</a>
+                        </li>
+
+                        <li>
+                            <a href="./menproduct.html">Men's</a>
+                        </li>
+
+                        <li>
+                            <a href="./womenproduct.html">Women's</a>
+                        </li>
+
+                        <li>
+                            <a href="./kidsproduct.html">Kids</a>
+                        </li>
+
+                        <li>
+                            <a href="./accessories.html">Accessories</a>
+                        </li>
+                    </ul>
+                </li>
+                
+                <li>
+                    <a href="./contact.html">Contact Us</a>
+                </li>
+
+            </ul>
+        </nav>
+
+    </div>
+</header>
+
+<main id="home">
+
+    <section class="home">
+
+        <div class="first-slide">
+            <h2>Women's Fashion</h2>
+            <p>
+                Some representative placeholder content for the first slide.
+            </p>
+        </div>
+
+        <div class="second-slide">
+            <h2>Men's Fashion</h2>
+            <p>
+                Some representative placeholder content for the second slide.
+            </p>
+        </div>
+
+        <div class="third-slide">
+            <h2>Kids' Fashion</h2>
+            <p>
+                Some representative placeholder content for the third slide.
+            </p>
+        </div>
+
+        <div class="fourth-slide">
+            <h2>Accessories</h2>
+            <p>
+                Some representative placeholder content for the fourth slide.
+            </p>
+        </div>
+
+    </section>
+
+
+    <section class="products" id="products">
+
+        <div>
+            <h2>Latest Products</h2>
+            <p>Here, you can find our newest products.</p>
+        </div>
+
+        <div class="products">
+
+            <div class="women">
+                <img
+                    src="./images/homepage/women-01.jpg"
+                    alt="New green jacket"
+                >
+
+                <h4>New Green Jacket</h4>
+                <p>EGP 290.00</p>
+
+                <a href="./womenproduct.html">
+                    <button type="button">See More</button>
+                </a>
+            </div>
+
+
+            <div class="men">
+                <img
+                    src="./images/homepage/men-01.jpg"
+                    alt="Classic spring men's clothing"
+                >
+
+                <h4>Classic Spring</h4>
+                <p>EGP 150.00</p>
+
+                <a href="./menproduct.html">
+                    <button type="button">See More</button>
+                </a>
+            </div>
+
+
+            <div class="kids">
+                <img
+                    src="./images/homepage/kid-01.jpg"
+                    alt="Kids school collection"
+                >
+
+                <h4>School Collection</h4>
+                <p>EGP 295.00</p>
+
+                <a href="./kidsproduct.html">
+                    <button type="button">See More</button>
+                </a>
+            </div>
+
+
+            <div class="accessories">
+                <img
+                    src="./images/homepage/accessories-01.jpg"
+                    alt="Fashion accessories"
+                >
+
+                <h4>Accessories</h4>
+                <p>EGP 85.00</p>
+
+                <a href="./accessories.html">
+                    <button type="button">See More</button>
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section>
+        <div>
+
+            <h2>Dokan Shop Store</h2>
+
+            <p>
+                This is our store in real life. Don't miss to visit us.
+            </p>
+
+            <video
+                muted
+                controls
+                width="100%"
+                height="600"
+            >
+                <source
+                    src="https://www.pexels.com/download/video/6297715/"
+                    type="video/mp4"
+                >
+
+                Your browser does not support the video tag.
+
+            </video>
+
+        </div>
+    </section>
+
+
+    <section class="deals" id="deals">
+
+        <div>
+
+            <h2>Hot Deals</h2>
+
+            <p>
+                Searching for special things! You can find the latest deals here.
+            </p>
+
+            <div class="discount">
+                <p>
+                    Enjoy 50% discount on Black Friday.
+                </p>
+            </div>
+
+            <div class="weekend-discount">
+                <p>
+                    Enjoy up to 70% discount on weekends.
+                </p>
+            </div>
+
+            <div class="delivery">
+                <p>
+                    Enjoy free delivery when you register.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section>
+
+        <div class="feedback">
+
+            <h2>Feedback</h2>
+
+            <p>
+                We will be very happy if you submit your feedback
+                or any other special request.
+            </p>
+
+            <form action="#" method="post">
+
+                <input
+                    type="text"
+                    name="name"
+                    placeholder="Your Name"
+                    required
+                >
+
+                <input
+                    type="email"
+                    name="email"
+                    placeholder="Your Email"
+                    required
+                >
+
+                <textarea
+                    name="feedback"
+                    placeholder="Your Feedback"
+                    rows="5"
+                    required
+                ></textarea>
+
+                <input
+                    type="submit"
+                    value="Submit"
+                >
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <section>
+
+        <div class="store-info">
+
+            <div>
+                <h3>Address</h3>
+
+                <p>
+                    16.B El Mariotia, Faisal, Giza, Egypt
+                </p>
+            </div>
+
+
+            <div>
+                <h3>Email</h3>
+
+                <p>
+                    Dokanshop@Company.Com
+                </p>
+            </div>
+
+
+            <div>
+                <h3>Mobile Number</h3>
+
+                <p>
+                    +20-11-195-544-63
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+    <div class="Pages-link">
+
+        <div class="categories">
+
+            <h3>Shopping & Categories</h3>
+
+            <ul>
+
+                <li>
+                    <a href="./menproduct.html">Men's Shopping</a>
+                </li>
+
+                <li>
+                    <a href="./womenproduct.html">Women's Shopping</a>
+                </li>
+
+                <li>
+                    <a href="./kidsproduct.html">Kids' Shopping</a>
+                </li>
+
+                <li>
+                    <a href="./accessories.html">Accessories</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <div class="useful-links">
+
+            <h3>Useful Links</h3>
+
+            <ul>
+
+                <li>
+                    <a href="#home">Home Page</a>
+                </li>
+
+                <li>
+                    <a href="./about-us.html">About Us</a>
+                </li>
+
+                <li>
+                    <a href="./contact.html">Contact</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <div class="help">
+
+            <h3>Help & Information</h3>
+
+            <ul>
+
+                <li>
+                    <a href="#">Help</a>
+                </li>
+
+                <li>
+                    <a href="#">FAQ'S</a>
+                </li>
+
+                <li>
+                    <a href="#">Track Your Shipping</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="copyright">
+
+        <p>
+            Copyright &copy; DokanShop Co., Ltd. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+</body>
+</html>
