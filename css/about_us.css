@@ -1,0 +1,386 @@
+.background_image { 
+ 
+    background-image: url(./images/accessories/2018\ New\ Charm\ Trendy\ Imperial\ Golden&Black\ Crown\ Bracelets\ Men\ Natural\ Stone\ Beads\ Bracelet\ For\ Women\ Men\ Jewelry\ Accessories16.jpg); 
+ 
+    background-size: 100% 100%; 
+ 
+    height: 80vh; 
+ 
+    display: flex; 
+ 
+    flex-direction: column; 
+ 
+    justify-content: center; 
+ 
+    align-items: center; 
+ 
+    font-size: 30px; 
+ 
+} 
+ 
+.image { 
+ 
+    width: 30%; 
+ 
+} 
+ 
+.heading { 
+ 
+    text-transform: capitalize; 
+ 
+    font-size: 30px; 
+ 
+} 
+ 
+.content { 
+ 
+    color: green; 
+ 
+    line-height: 1.5em; 
+ 
+    font-size: 18px; 
+ 
+} 
+ 
+.info { 
+ 
+    display: flex; 
+ 
+    flex-direction: column; 
+ 
+    justify-content: center; 
+ 
+    align-items: center; 
+ 
+    width: 37%; 
+ 
+    gap: 1em; 
+ 
+} 
+ 
+.second { 
+ 
+    display: flex; 
+ 
+    justify-content: space-between; 
+ 
+    align-items: center; 
+ 
+    margin: 4em; 
+ 
+} 
+ 
+.team .ourteam { 
+ 
+    display: flex; 
+ 
+    flex-direction: column; 
+ 
+    justify-content: flex-start; 
+ 
+    align-items: center; 
+ 
+    gap: 0.5em; 
+ 
+    margin-bottom: 2em; 
+ 
+    font-size: 2em; 
+ 
+} 
+ 
+.teaminfo { 
+ 
+    color: gray; 
+ 
+    font-size: 1em !important; 
+ 
+} 
+ 
+.team_members { 
+ 
+    display: flex; 
+ 
+    justify-content: space-evenly; 
+ 
+    align-items: center; 
+ 
+} 
+ 
+.member { 
+ 
+    display: flex; 
+ 
+    flex-direction: column; 
+ 
+    justify-content: center; 
+ 
+    align-items: center; 
+ 
+    gap: 1em; 
+ 
+    font-size: 1.3em; 
+ 
+} 
+ 
+.ourservice { 
+ 
+    display: flex; 
+ 
+    flex-direction: column; 
+ 
+    justify-content: flex-start; 
+ 
+    align-items: center; 
+ 
+    gap: 0.5em; 
+ 
+    margin: 2em 0; 
+ 
+    font-size: 2em; 
+ 
+} 
+ 
+.serviceinfo { 
+ 
+    color: gray; 
+ 
+    font-size: 1em !important; 
+ 
+} 
+ 
+.the_service { 
+ 
+    display: flex; 
+ 
+    justify-content: space-evenly; 
+ 
+    align-items: center; 
+ 
+} 
+ 
+.service { 
+ 
+    display: flex; 
+ 
+    flex-direction: column-reverse; 
+ 
+    justify-content: center; 
+ 
+    align-items: center; 
+ 
+    gap: 1em; 
+ 
+    font-size: 1.3em; 
+ 
+    text-align: center; 
+ 
+    border-bottom: 0.2em black solid; 
+ 
+    border-right: 0.2em black solid; 
+ 
+    border-left: 0.2em gray solid; 
+ 
+    border-top: 0.2em gray solid; 
+ 
+    width: 30%; 
+ 
+} 
+ 
+.feed { 
+ 
+    margin: 2em 0; 
+ 
+    display: flex; 
+ 
+    flex-direction: column; 
+ 
+    justify-content: center; 
+ 
+    gap: 2em; 
+ 
+    height: 70vh; 
+ 
+} 
+ 
+.feedback { 
+ 
+    text-align: center; 
+ 
+} 
+ 
+.controls { 
+ 
+    display: flex; 
+ 
+    flex-direction: row; 
+ 
+    justify-content: space-evenly; 
+ 
+    align-items: flex-start; 
+ 
+    gap: 2em; 
+ 
+} 
+ 
+.form { 
+ 
+    display: flex; 
+ 
+    flex-direction: column; 
+ 
+    gap: 1.1em; 
+ 
+} 
+ 
+.contact { 
+ 
+    text-decoration: underline; 
+ 
+    color: red; 
+ 
+}
+
+@media (max-width: 768px) {
+
+    .background_image {
+        height: auto;
+        min-height: 70vh;
+        padding: 2em 1em;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .image {
+        width: 60%;
+    }
+
+    .heading {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .content {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .info {
+        width: 90%;
+        gap: 0.7em;
+    }
+
+    .second {
+        flex-direction: column;
+        gap: 2em;
+        margin: 2em 1em;
+    }
+
+    .team .ourteam {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .teaminfo {
+        font-size: 0.8em !important;
+        text-align: center;
+    }
+
+    .team_members {
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .member {
+        font-size: 1.1em;
+    }
+
+    .ourservice {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .serviceinfo {
+        font-size: 0.8em !important;
+        text-align: center;
+    }
+
+    .the_service {
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .service {
+        width: 80%;
+        font-size: 1.1em;
+    }
+
+    .feed {
+        height: auto;
+        padding: 2em 1em;
+    }
+
+    .controls {
+        flex-direction: column;
+        align-items: center;
+        gap: 2em;
+    }
+
+    .form {
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .background_image {
+        min-height: 60vh;
+    }
+
+    .image {
+        width: 75%;
+    }
+
+    .heading {
+        font-size: 20px;
+    }
+
+    .content {
+        font-size: 14px;
+    }
+
+    .info {
+        width: 100%;
+    }
+
+    .second {
+        margin: 2em 0.5em;
+    }
+
+    .team .ourteam {
+        font-size: 1.3em;
+    }
+
+    .member {
+        font-size: 1em;
+    }
+
+    .ourservice {
+        font-size: 1.3em;
+    }
+
+    .service {
+        width: 90%;
+        font-size: 1em;
+    }
+
+    .controls {
+        gap: 1.5em;
+    }
+
+    .form {
+        width: 95%;
+    }
+
+}
+
